@@ -47,14 +47,14 @@ export default function SelectedWork() {
 
               <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 p-6">
                 <div>
-                  <span className="font-mono text-[11px] text-strong/50">
+                  <span className="font-mono text-[11px] text-white/50">
                     0{index + 1}
                   </span>
-                  <h3 className="mt-1 text-2xl font-bold text-strong transition-colors duration-300 group-hover:text-accent sm:text-3xl">
+                  <h3 className="mt-1 text-2xl font-bold text-white transition-colors duration-300 group-hover:text-accent sm:text-3xl">
                     {study.title}
                   </h3>
                 </div>
-                <span className="shrink-0 translate-y-1 font-mono text-[11px] uppercase tracking-[0.15em] text-strong/60 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                <span className="shrink-0 translate-y-1 font-mono text-[11px] uppercase tracking-[0.15em] text-white/60 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
                   {study.category}
                 </span>
               </div>
