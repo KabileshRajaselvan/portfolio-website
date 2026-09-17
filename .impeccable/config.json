@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "gray-on-color",
+        "value": "*",
+        "files": [
+          "app/projects/[slug]/page.tsx"
+        ],
+        "createdAt": "2026-09-17T17:38:26.353Z",
+        "reason": "text-slate-950 (near-black) on bg-cyan-500 is dark-on-bright, not washed-out gray-on-color; same solid-CTA pattern used sitewide"
+      }
+    ]
+  }
+}
