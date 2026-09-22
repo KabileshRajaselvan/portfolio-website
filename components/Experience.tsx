@@ -2,6 +2,7 @@ import Image from "next/image";
 import Reveal from "@/components/Reveal";
 import SplitHeading from "@/components/SplitHeading";
 import SectionTexture from "@/components/SectionTexture";
+import ModuleOwnership from "@/components/ModuleOwnership";
 import { experience, type ExperienceEntry } from "@/lib/content";
 
 function ExperienceRow({
@@ -135,6 +136,20 @@ export default function Experience() {
             <ExperienceRow entry={entry} index={index} />
           </Reveal>
         ))}
+      </div>
+
+      <div className="mt-20 border-t border-graphite-800/60 pt-16">
+        <Reveal>
+          <span className="font-mono text-sm uppercase tracking-[0.25em] text-accent">
+            Technical Deep-Dive
+          </span>
+          <h3 className="mt-3 text-2xl font-bold text-strong sm:text-3xl">
+            Module Ownership at IncuBrix
+          </h3>
+        </Reveal>
+        <Reveal delay={80} className="mt-8">
+          <ModuleOwnership />
+        </Reveal>
       </div>
     </section>
   );
